@@ -13,12 +13,15 @@ maintainers = [
     { name = "Alexandros Ladas" },
 ]
 requires-python = ">=3.10,<3.12"
+
+# Dependency pinning introduced issues within the Vertex AI Workbench environment.
+# Ommiting the version pinning until a better solution is found.
 dependencies = [
-    "google-cloud-aiplatform==1.56.0",
-    "google-cloud-storage==2.17.0",
+    "google-cloud-aiplatform",
+    "google-cloud-storage",
     "getml==1.4.0",
     "numpy<2.0.0",
-    "pyyaml==6.0.1",
+    "pyyaml",
 ]
 
 [project.urls]
