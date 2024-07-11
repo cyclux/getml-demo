@@ -1,0 +1,96 @@
+{
+    "population_test": {
+        "target": [
+            "default"
+        ],
+        "join_key": [
+            "account_id"
+        ],
+        "numerical": [
+            "amount",
+            "duration",
+            "payments"
+        ],
+        "categorical": [
+            "frequency"
+        ],
+        "time_stamp": [
+            "date_loan"
+        ]
+    },
+    "population_train": {
+        "target": [
+            "default"
+        ],
+        "join_key": [
+            "account_id"
+        ],
+        "numerical": [
+            "amount",
+            "duration",
+            "payments"
+        ],
+        "categorical": [
+            "frequency"
+        ],
+        "time_stamp": [
+            "date_loan"
+        ]
+    },
+    "trans": {
+        "join_key": [
+            "account_id"
+        ],
+        "time_stamp": [
+            "date"
+        ],
+        "categorical": [
+            "type",
+            "k_symbol",
+            "bank",
+            "operation"
+        ],
+        "numerical": [
+            "amount",
+            "balance"
+        ]
+    },
+    "order": {
+        "join_key": [
+            "account_id"
+        ],
+        "categorical": [
+            "bank_to",
+            "k_symbol"
+        ],
+        "numerical": [
+            "amount"
+        ]
+    },
+    "meta": {
+        "join_key": [
+            "account_id"
+        ],
+        "categorical": [
+            "type_disp",
+            "type_card",
+            "gender",
+            "A3"
+        ],
+        "numerical": [
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14",
+            "A15",
+            "A16"
+        ]
+    }
+}

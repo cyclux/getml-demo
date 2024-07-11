@@ -1,0 +1,32 @@
+{
+  "meta": {},
+  "order": {
+    "money": [
+      "amount"
+    ]
+  },
+  "population_test": {
+    "money": [
+      "amount"
+    ],
+    "time stamp, comparison only": [
+      "date_loan"
+    ]
+  },
+  "population_train": {
+    "money": [
+      "amount"
+    ],
+    "time stamp, comparison only": [
+      "date_loan"
+    ]
+  },
+  "trans": {
+    "time stamp, comparison only": [
+      "date"
+    ],
+    "money": [
+      "balance"
+    ]
+  }
+}
