@@ -6,7 +6,6 @@ build-backend = "hatchling.build"
 name = "getml-vertexai"
 version = "0.1.0"
 description = "A collection of utilities for using getML with Vertex AI."
-readme = "README.md"
 license = { text = "ELv2" }
 authors = [{ email = "alexandros@getml.com" }, { name = "Alexandros Ladas" }]
 maintainers = [
